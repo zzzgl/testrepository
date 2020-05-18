@@ -10,7 +10,7 @@ import java.io.IOException;
 @WebServlet(name = "HelloServlet")
 public class HelloServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        out.print("123321!!!");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
